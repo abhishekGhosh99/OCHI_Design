@@ -7,6 +7,7 @@ import Playful from "./components/Playful";
 import Cards from "./components/Cards";
 import ReadyToStart from "./components/ReadyToStart";
 import Footer from "./components/Footer";
+import CardsGrid from "./components/CardsGrid";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <About />
       <Playful />
       <Cards />
+      <CardsGrid />
       <ReadyToStart />
       <Footer />
     </div>
