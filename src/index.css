@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: FoundersGrotesk;
+  src: url(/fonts/FoundersGrotesk-Semibold.ttf);
+}
+@font-face {
+  font-family: NeueMontreal;
+  src: url(/fonts/NeueMontreal-Regular.ttf);
+}
+html::-webkit-scrollbar {
+  width: 0;
+}
