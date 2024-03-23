@@ -3,7 +3,12 @@ import { FaArrowUpLong } from "react-icons/fa6";
 
 const About = () => {
   return (
-    <div className="w-full py-16 text-[#202021] bg-[#CCEA69] font-[NeueMontreal] rounded-tl-2xl rounded-tr-2xl">
+    <div
+      data-scroll
+      // data-scroll-section
+      data-scroll-speed="-.14"
+      className="w-full py-16 text-[#202021] bg-[#CCEA69] font-[NeueMontreal] rounded-tl-2xl rounded-tr-2xl rounded-bl-2xl rounded-br-2xl"
+    >
       <div className="heading py-10 pb-20 border-b-[1px] border-zinc-700 ">
         <h1 className="text-[4vw] px-[60px] leading-[1.2]">
           Ochi is a strategic partner for fast-grow­ing tech businesses that

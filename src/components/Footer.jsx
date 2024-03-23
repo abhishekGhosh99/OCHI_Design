@@ -2,7 +2,12 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="w-full relative pt-[6vw] pb-[14vw] px-16 font-[FoundersGrotesk]">
+    <div
+      data-scroll
+      data-scroll-section
+      data-scroll-speed=".3"
+      className="w-full relative pt-[6vw] pb-[14vw] px-16 font-[FoundersGrotesk] rounded-tr-2xl rounded-tl-2xl bg-zinc-900"
+    >
       <div className="w-full flex flex-row justify-between">
         <div className="left  w-[50vw] flex flex-col">
           <div className="uppercase leading-[8vw] mb-[50vh] py-12">

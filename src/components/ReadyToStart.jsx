@@ -19,8 +19,14 @@ const ReadyToStart = () => {
       // console.log(degrees);
     });
   }, []);
+
   return (
-    <div className="relative w-full font-[FoundersGrotesk] bg-[#CDEB69] py-32">
+    <div
+      data-scroll
+      data-scroll-section
+      data-scroll-speed="-.2"
+      className="relative w-full font-[FoundersGrotesk] bg-[#CDEB69] py-32 rounded-tl-2xl rounded-tr-2xl"
+    >
       <div className="div-text">
         <div className="ready-div uppercase text-[17vw] text-zinc-800 leading-[13vw] text-center">
           <h1>ready</h1>

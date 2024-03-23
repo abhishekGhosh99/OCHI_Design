@@ -2,7 +2,7 @@ import React from "react";
 
 const CardsGrid = () => {
   return (
-    <div className="w-full font-[NeueMontreal] bg-zinc-100 pb-[18vh]">
+    <div className="w-full h-screen font-[NeueMontreal] bg-zinc-100 pb-[18vh]">
       <div className="w-full flex px-10 py-20 gap-5">
         <div className="relative left w-[48vw] bg-[#004C42] rounded-2xl py-[15vw]">
           <div className="card_container">

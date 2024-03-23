@@ -1,16 +1,27 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { FaArrowUpLong } from "react-icons/fa6";
 
 const LandingPage = () => {
   return (
-    <div className="w-full h-screen bg-zinc-900 pt-1">
+    <div
+      data-scroll
+      data-scroll-section
+      data-scroll-speed="-.8"
+      className="w-full bg-zinc-900 pt-1 pb-24"
+    >
       <div className="text-structure mt-[120px] px-16">
         {["We Create", "Eye-Opening", "Presentations"].map((item, index) => {
           return (
             <div className="masker font-[FoundersGrotesk]">
               <div className="w-fit flex items-end overflow-hidden">
                 {index === 1 && (
-                  <div className="mr-[1vw] w-[10vw] rounded-md h-[6.3vw] -top-[.3vw] relative bg-red-700"></div>
+                  <motion.div
+                    initial={{ width: 0 }}
+                    animate={{ width: "10vw", marginRight: "1vw" }}
+                    transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
+                    className="w-[10vw] rounded-md h-[6.3vw] -top-[.3vw] relative bg-[url('https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg')] bg-cover"
+                  ></motion.div>
                 )}
                 <h1
                   key={index}
@@ -36,7 +47,7 @@ const LandingPage = () => {
           </p>
         ))}
         <div className="startTheProject flex items-center gap-2">
-          <div className="text-md font-light px-5 uppercase py-1 text-nowrap border-[1px] rounded-full">
+          <div className="text-[15px] font-light px-5 uppercase py-1 text-nowrap border-[1px] rounded-full">
             Start The Project
           </div>
           <div className="w-9 h-9 rounded-full border-[1px] flex items-center justify-center">

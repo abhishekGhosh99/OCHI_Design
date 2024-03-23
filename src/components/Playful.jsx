@@ -24,7 +24,11 @@ const Playful = () => {
 
   return (
     <div className="playful w-full h-screen overflow-hidden cursor-pointer">
-      <div className="relative w-full h-full bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg')] bg-cover bg-center">
+      <div
+        data-scroll
+        data-scroll-speed="-.5"
+        className="relative w-full h-full bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg')] bg-cover bg-center"
+      >
         <div className="flex flex-row justify-between items-center absolute w-[35%]  top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">
           <div className="flex justify-center items-center w-[16vw] h-[16vw] rounded-full bg-zinc-100">
             <div className="w-2/3 h-2/3 relative rounded-full bg-[#212121]">
