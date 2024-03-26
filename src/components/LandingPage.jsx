@@ -13,7 +13,7 @@ const LandingPage = () => {
       <div className="text-structure mt-[120px] px-16">
         {["We Create", "Eye-Opening", "Presentations"].map((item, index) => {
           return (
-            <div className="masker font-[FoundersGrotesk]">
+            <div className="masker font-[FoundersGrotesk]" key={index}>
               <div className="w-fit flex items-end overflow-hidden">
                 {index === 1 && (
                   <motion.div
@@ -23,10 +23,7 @@ const LandingPage = () => {
                     className="w-[10vw] rounded-md h-[6.3vw] -top-[.3vw] relative bg-[url('https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg')] bg-cover"
                   ></motion.div>
                 )}
-                <h1
-                  key={index}
-                  className="text-[120px] uppercase leading-[8vw] tracking-wide"
-                >
+                <h1 className="text-[120px] uppercase leading-[8vw] tracking-wide">
                   {item}
                 </h1>
               </div>
