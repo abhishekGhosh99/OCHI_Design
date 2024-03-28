@@ -21,14 +21,16 @@ const Cards = () => {
       data-scroll
       data-scroll-section
       data-scroll-speed="-.1"
-      className="w-full bg-zinc-100 py-28 font-[NeueMontreal] border-b-[1px] border-zinc-500"
+      className="w-full bg-zinc-100 py-6 pb-20 lg:py-18 font-[NeueMontreal] border-b-[1px] border-zinc-500"
     >
-      <div className="w-full px-10 py-10 border-b-[1px] border-zinc-500">
-        <h1 className="text-[4vw] text-zinc-800">Featured Projects</h1>
+      <div className="w-full px-5 lg:px-10 py-5 lg:py-10 border-b-[1px] border-zinc-500">
+        <h1 className="text-[9vw] lg:text-[4vw] text-zinc-800">
+          Featured Projects
+        </h1>
       </div>
 
-      <div className="cards w-full flex px-8 flex-wrap overflow-hidden ">
-        <div className="card-container relative w-1/2 h-[80vh] px-6 pb-20 mb-16 ">
+      <div className="cards w-full flex flex-col lg:flex-row px-2 lg:px-8 lg:flex-wrap overflow-hidden ">
+        <div className="card-container relative w-full lg:w-1/2 lg:h-[80vh] px-4 lg:px-6 pb-5 lg:pb-20 mb-0 lg:mb-16 ">
           <div className="card-text w-full flex items-center justify-start text-zinc-800 gap-3 font-medium  py-6 px-3">
             <div className="w-[10px] h-[10px] rounded-full bg-black"></div>
             <h1>FYDE</h1>
@@ -56,7 +58,7 @@ const Cards = () => {
               alt=""
             />
           </motion.div>
-          <div className="card-buttons text-zinc-800 flex py-4 gap-2">
+          <div className="card-buttons text-zinc-800 flex flex-wrap lg:flex-nowrap py-5 lg:py-4 gap-2">
             <li className="list-none px-3 py-1 border-[1.4px] border-zinc-600 rounded-3xl text-[14px] font-[500]">
               AUDIT
             </li>
@@ -72,7 +74,7 @@ const Cards = () => {
           </div>
         </div>
 
-        <div className="card-container relative w-1/2 h-[80vh] px-6 pb-20 mb-16">
+        <div className="card-container relative w-full lg:w-1/2 lg:h-[80vh] px-4 lg:px-6 pb-5 lg:pb-20 mb-0 lg:mb-16">
           <div className="card-text w-full flex text-zinc-800 font-medium py-6 px-3 items-center justify-start gap-3">
             <div className="w-[10px] h-[10px] rounded-full bg-black"></div>
             <h1>VISE</h1>
@@ -100,7 +102,7 @@ const Cards = () => {
               alt=""
             />
           </motion.div>
-          <div className="card-buttons text-zinc-800 flex py-4 gap-2">
+          <div className="card-buttons text-zinc-800 flex flex-wrap lg:flex-nowrap py-5 lg:py-4 gap-2">
             <li className="list-none px-3 py-1 border-[1.4px] border-zinc-600 rounded-3xl text-[14px] font-[500]">
               AGENCY
             </li>
@@ -110,7 +112,7 @@ const Cards = () => {
           </div>
         </div>
 
-        <div className="card-container relative w-1/2 h-[80vh] px-6 pb-20 mb-16">
+        <div className="card-container relative w-full lg:w-1/2 lg:h-[80vh] px-4 lg:px-6 pb-5 lg:pb-20 mb-0 lg:mb-16">
           <div className="card-text w-full flex text-zinc-800 font-medium py-6 px-3 items-center justify-start gap-3">
             <div className="w-[10px] h-[10px] rounded-full bg-black"></div>
             <h1>TRAWA</h1>
@@ -138,7 +140,7 @@ const Cards = () => {
               alt=""
             />
           </motion.div>
-          <div className="card-buttons text-zinc-800 flex py-4 gap-2">
+          <div className="card-buttons text-zinc-800 flex flex-wrap lg:flex-nowrap py-5 lg:py-4 gap-2">
             <li className="list-none px-3 py-1 border-[1.4px] border-zinc-600 rounded-3xl text-[14px] font-[500]">
               BRAND IDENTITY
             </li>
@@ -151,7 +153,7 @@ const Cards = () => {
           </div>
         </div>
 
-        <div className="card-container relative w-1/2 h-[80vh] px-6 pb-20 mb-16">
+        <div className="card-container relative w-full lg:w-1/2 lg:h-[80vh] px-4 lg:px-6 pb-5 lg:pb-20 mb-0 lg:mb-16">
           <div className="card-text w-full flex text-zinc-800 font-medium py-6 px-3 items-center justify-start gap-3">
             <div className="w-[10px] h-[10px] rounded-full bg-black"></div>
             <h1>PREMIUM BLEND</h1>
@@ -179,15 +181,15 @@ const Cards = () => {
               alt=""
             />
           </motion.div>
-          <div className="card-buttons text-zinc-800 flex py-4 gap-2">
+          <div className="card-buttons text-zinc-800 flex flex-wrap lg:flex-nowrap py-5 lg:py-4 gap-2">
             <li className="list-none px-3 py-1 border-[1.4px] border-zinc-600 rounded-3xl text-[14px] font-[500]">
               BRANDED TEMPLATE
             </li>
           </div>
         </div>
       </div>
-      <div className="w-full relative my-24">
-        <div className="approach_right-button absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] bg-[#212020] text-zinc-100 w-[20%] px-3 py-[10px] my-3 rounded-full flex flex-row justify-between">
+      <div className="w-full relative my-5 lg:my-24">
+        <div className="approach_right-button absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] bg-[#212020] text-zinc-100 w-[70vw] lg:w-[20%] px-3 py-[10px] my-3 rounded-full flex flex-row justify-between">
           <h1 className="flex justify-center items-center px-2 uppercase text-sm">
             view all case studies
           </h1>

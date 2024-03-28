@@ -6,15 +6,17 @@ const Footer = () => {
       data-scroll
       data-scroll-section
       data-scroll-speed=".3"
-      className="w-full relative pt-[6vw] pb-[14vw] px-16 font-[FoundersGrotesk] rounded-tr-2xl rounded-tl-2xl bg-zinc-900"
+      className="w-full h-[140vh] lg:h-auto relative pt-[3vw] lg:pt-[6vw] pb-[30vw] lg:pb-[14vw] px-8 lg:px-16 font-[FoundersGrotesk] rounded-tr-2xl rounded-tl-2xl bg-zinc-900"
     >
-      <div className="w-full flex flex-row justify-between">
+      <div className="w-full flex flex-col lg:flex-row justify-between">
         <div className="left  w-[50vw] flex flex-col">
-          <div className="uppercase leading-[8vw] mb-[50vh] py-12">
-            <h1 className="text-[10vw] text-zinc-100">Eye-</h1>
-            <h1 className="text-[10vw] text-zinc-100">Opening</h1>
+          <div className="uppercase leading-[15vw] lg:leading-[8vw] mb-[50vh] py-12">
+            <h1 className="text-[16vw] lg:text-[10vw] text-zinc-100">Eye-</h1>
+            <h1 className="text-[16vw] lg:text-[10vw] text-zinc-100">
+              Opening
+            </h1>
           </div>
-          <div className="logo  bottom-10">
+          <div className="logo absolute bottom-32 lg:bottom-10">
             <svg
               width="72"
               height="30"
@@ -45,11 +47,13 @@ const Footer = () => {
             </svg>
           </div>
         </div>
-        <div className="right relative w-[50vw] flex flex-col text-zinc-100">
-          <div className="heading">
-            <h1 className="uppercase text-[10vw] -mb-1">Presentations</h1>
+        <div className="right lg:relative w-full lg:w-[50vw] flex flex-col text-zinc-100">
+          <div className="heading absolute top-[41vw] lg:relative lg:top-[0]">
+            <h1 className="uppercase text-[16vw] lg:text-[10vw] -mb-1">
+              Presentations
+            </h1>
           </div>
-          <div className="footer-links font-[NeueMontreal]">
+          <div className="footer-links absolute lg:relative top-[30%] lg:top-0 right-[20%] lg:right-0 font-[NeueMontreal]">
             <ul>
               <li className="pb-[20px]">S:</li>
               <li className="underline  underline-offset-[4px]">Instagram</li>
@@ -58,7 +62,7 @@ const Footer = () => {
               <li className="underline  underline-offset-[4px]">Linkedin</li>
             </ul>
           </div>
-          <div className="footer-links-lower font-[NeueMontreal] pt-8">
+          <div className="footer-links-lower absolute lg:relative top-[55%] lg:top-0 font-[NeueMontreal] pt-8">
             <ul>
               <li className="pb-[20px]">L:</li>
               <li className="underline  underline-offset-[4px]">
@@ -75,7 +79,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="footer-mail font-[NeueMontreal] pt-8">
+          <div className="footer-mail absolute lg:relative top-[55%] right-[8%] lg:top-0 lg:right-0 font-[NeueMontreal] pt-8">
             <ul>
               <li className="pb-[20px]">E:</li>
               <li className="underline underline-offset-[4px]">
@@ -83,7 +87,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="nav-links absolute font-[NeueMontreal] bottom-[12vh] right-[10vw]">
+          <div className="nav-links absolute top-[30%] lg:top-[60%] font-[NeueMontreal] lg:bottom-[12vh] lg:right-[10vw]">
             <ul>
               <li className="pb-[20px]">M:</li>
               <li className="underline underline-offset-[4px]">Home</li>
@@ -96,7 +100,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="copyright absolute bottom-0 left-[50%] translate-x-[-50%] translate-y-[-50%] font-[NeueMontreal] text-zinc-400 pb-6">
+      <div className="copyright text-center text-nowrap absolute bottom-0 left-[50%] translate-x-[-50%] translate-y-[-50%] font-[NeueMontreal] text-zinc-400 pb-6">
         © ochi design 2024. Legal Terms
       </div>
     </div>

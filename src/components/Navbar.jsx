@@ -2,11 +2,12 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="w-full px-10 py-5 font-[NeueMontreal] flex justify-between items-center bg-zinc-900 fixed z-[999]">
-      <div className="logo px-4">
+    <div className="w-full px-3 py-5 lg:px-10 lg:py-5 font-[NeueMontreal] flex justify-between items-center bg-zinc-900 fixed z-[999]">
+      <div className="logo px-5 lg:px-4">
         <svg
-          width="72"
-          height="30"
+          className="w-14 h-6 lg:w-20 lg:h-10"
+          // width="72"
+          // height="30"
           viewBox="0 0 72 30"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +34,7 @@ const Navbar = () => {
           ></path>
         </svg>
       </div>
-      <div className="links flex gap-10">
+      <div className="links hidden md:flex lg:flex gap-10">
         {["Services", "Our Work", "About Us", "Insights", "Contact Us"].map(
           (item, index) => (
             <a
