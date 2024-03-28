@@ -7,7 +7,7 @@ const About = () => {
       data-scroll
       data-scroll-section
       data-scroll-speed="-.14"
-      className="w-full py-2 lg:py-16 text-[#202021] bg-[#CCEA69] font-[NeueMontreal] rounded-tl-2xl rounded-tr-2xl rounded-bl-2xl rounded-br-2xl"
+      className="w-full py-2 lg:py-16 text-[#202021] bg-[#CCEA69] font-[NeueMontreal] lg:rounded-tl-2xl lg:rounded-tr-2xl lg:rounded-bl-2xl lg:rounded-br-2xl"
     >
       <div className="heading py-12 lg:py-10 pb-20 border-b-[1px] border-zinc-700 ">
         <h1 className="text-[8vw] lg:text-[4vw] px-7 lg:px-[60px] leading-9 lg:leading-[1.2]">

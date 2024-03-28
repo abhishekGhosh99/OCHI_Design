@@ -25,7 +25,7 @@ const ReadyToStart = () => {
       data-scroll
       data-scroll-section
       data-scroll-speed="-.2"
-      className="w-full relative font-[FoundersGrotesk] bg-[#CDEB69] py-10 lg:py-32 rounded-tl-2xl rounded-tr-2xl"
+      className="w-full relative font-[FoundersGrotesk] bg-[#CDEB69] py-10 lg:py-32 lg:rounded-tl-2xl lg:rounded-tr-2xl"
     >
       <div className="div-text w-full pt-5 pb-2">
         <div className="ready-div uppercase text-[20vw] lg:text-[17vw] text-zinc-800 leading-[15vw] lg:leading-[13vw] text-center">
