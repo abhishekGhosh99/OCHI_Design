@@ -23,7 +23,7 @@ const Playful = () => {
   }, []);
 
   return (
-    <div className="playful w-full h-[80vh] lg:h-screen overflow-hidden cursor-pointer">
+    <div className="playful w-full h-[60vh] lg:h-screen overflow-hidden cursor-pointer">
       <div
         data-scroll
         data-scroll-speed="-.5"
