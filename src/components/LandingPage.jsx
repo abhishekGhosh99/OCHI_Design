@@ -29,7 +29,7 @@ const LandingPage = () => {
         {["We Create", "Eye-Opening", "Presentations"].map((item, index) => {
           return (
             <div className="masker font-[FoundersGrotesk]" key={index}>
-              <div className="w-fit flex items-end overflow-hidden">
+              <div className="w-fit flex items-center overflow-hidden">
                 {index === 1 && (
                   <motion.div
                     initial={{ width: 0 }}
@@ -41,7 +41,7 @@ const LandingPage = () => {
                     style={{
                       width: isSmallerScreen ? "15vw" : "10vw",
                       height: isSmallerScreen ? "10vw" : "6.3vw",
-                      top: ".1vw",
+                      top: ".8vw",
                       position: "relative",
                       marginRight: "1vw",
                       backgroundImage: `url('https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg')`,
@@ -51,7 +51,7 @@ const LandingPage = () => {
                     }}
                   ></motion.div>
                 )}
-                <h1 className="text-[60px] md:text-[80px] lg:text-[120px] uppercase leading-[12vw] sm:leading-[8vw] md:leading-[8vw] lg:leading-[8vw] tracking-wide">
+                <h1 className="text-[60px] md:text-[80px] lg:text-[120px] uppercase leading-[14vw] sm:leading-[8vw] md:leading-[8vw] lg:leading-[8vw] tracking-wide">
                   {item}
                 </h1>
               </div>
